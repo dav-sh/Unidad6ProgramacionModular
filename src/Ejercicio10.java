@@ -31,12 +31,11 @@ public class Ejercicio10{
         }
         System.out.println(" ");
         //fill 2nd array
-        for (int i = 0; i<row1; i++){
-
-            for(int j=0; j<column1; j++){
-                data2[j][i] = data1[i][j];
-                System.out.print(" "+data2[j][i]);
-
+        for (int i = 0; i<row2; i++){
+            for(int j=0; j<column2; j++){
+                data2[i][j] = data1[j][i];
+                System.out.print(" "+data2[i][j]);
+                
             }
             System.out.println(" ");
         }
